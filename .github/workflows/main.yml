@@ -46,4 +46,4 @@ jobs:
         with: 
           images: leopereshz/conversao-temperatura:${{ github.run_number }} 
           manifests: |
-            k8s/pods.yaml
+            k8s/deployment.yaml
