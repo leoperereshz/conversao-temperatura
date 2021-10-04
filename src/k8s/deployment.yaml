@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: conversao-temperatura
-          image: victormello93/conversao-temperatura:v1
+          image: leopereshz/conversao-temperatura:v1
           ports:
             - containerPort: 8080
 
